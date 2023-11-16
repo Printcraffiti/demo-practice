@@ -14,7 +14,6 @@
   </section>
   <!-- END BUSINESS CARD -->
   
-  <!-- START TOP -->
   <section id="getaquote" class="container py-3">
     <div class="row py-5">
       <div class="col-12">
@@ -82,5 +81,6 @@
       </div>
     </div>
   </section>
-                    
+  @include('partials.modals.bc-templates')    
+
 @endsection

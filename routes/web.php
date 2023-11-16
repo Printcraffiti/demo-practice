@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::view('/','pages.home')->name('home');
 Route::view('/business-card','pages.business-card')->name('business-card');
+Route::view('/faq','pages.faq')->name('faq');
 
 
 Route::middleware([

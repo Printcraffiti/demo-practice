@@ -21,7 +21,7 @@
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a wire:navigate class="dropdown-item text-dark" href="/business-card">Business Card</a></li>
             <li><a wire:navigate class="dropdown-item text-dark" href="/thankyou-card">Thank You Card</a></li>
-            <li><a class="dropdown-item text-dark" href="notebook.html">Notebook</a></li>
+            <li><a wire:navigate class="dropdown-item text-dark" href="/notebook">Notebook</a></li>
             <li><a class="dropdown-item text-dark" href="planner.html">Planner</a></li>
             <li><a class="dropdown-item text-dark" href="devotional-journal.html">Devotional Journal</a></li>
             <li><a class="dropdown-item text-dark" href="magnetic-bookmark.html">Magnetic Bookmark</a></li>
@@ -36,11 +36,11 @@
         </ul>
         </li>
 
-        <li class="nav-item px-3">
+        <!-- <li class="nav-item px-3">
         <a class="nav-link text-dark fw-bold" data-bs-toggle="modal" data-bs-target="#howtoordermodal" aria-current="page" href="">How to order</a>
-        </li>
+        </li> -->
         <li class="nav-item px-3">
-        <a class="nav-link text-dark fw-bold" aria-current="page" href="faq.html">FAQs</a>
+        <a wire:navigate class="nav-link text-dark fw-bold" aria-current="page" href="/faq">FAQs</a>
         </li>
         <li class="nav-item px-3">
         <a class="nav-link text-dark fw-bold" aria-current="page" href="getaquote.html">Get a Quote</a>
