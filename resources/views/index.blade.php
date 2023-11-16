@@ -21,8 +21,6 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/133d03ba7a.js" crossorigin="anonymous"></script>
 
-        @livewireStyles
-
     </head>
     <body>
         <div class="floating-parent">
@@ -43,8 +41,6 @@
         @include('partials.modals.sign-up')
         @include('partials.modals.login')
         <!-- Bootstrap JS -->
-        
-        @livewireScripts
         
         <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
